@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Xu Yitao"
 title_separator          : "-"
-name                     : &name "Xu Yitao (徐一涛)"
+name                     : &name "Xu Yitao "
 description              : &description "personal description"
 url                      : https://xyt0098.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Yitao Xu"
   avatar           : "profile.png"
   bio              : "M.Sc. Exchange, Computer Science, EPFL. 
                       \n 

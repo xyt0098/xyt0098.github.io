@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Yitao Xu. Welcome to my homepage!
+My name is Yitao Xu (徐一涛). Welcome to my homepage!
 
 I am a exchange master's student in Computer Science at [École polytechnique fédérale de Lausanne (EPFL)](https://www.epfl.ch/en/). Before the exchange semester, I was a master's student at [KTH Royal Institute of Technology](https://www.kth.se/en), majoring in Machine Learning. 
 
