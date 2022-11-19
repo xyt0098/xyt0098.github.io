@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Your Sidebar Name"
   avatar           : "profile.png"
-  bio              : "M.Sc. Exchange, Computer Science, EPFL. M.Sc. Machine Learning, KTH."
+  bio              : "M.Sc. Exchange, Computer Science, EPFL. \ M.Sc. Machine Learning, KTH."
   location         : "Lausanne, Switzerland"
   employer         :
   pubmed           : 
