@@ -1,12 +1,25 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+My name is Yitao Xu. Welcome to my homepage!
+
+I am a exchange master's student in Computer Science at [École polytechnique fédérale de Lausanne (EPFL)](https://www.epfl.ch/en/). Before the exchange semester, I was a master's student at [KTH Royal Institute of Technology](https://www.kth.se/en), majoring in Machine Learning. 
+
+Before my master's study, I got my B.Eng degree in Computer Science and Technology at [Beihang University (BUAA)](https://www.buaa.edu.cn/). I worked as a research student at [State Key Laboratory of Software Development Environment (NLSDE)](https://xlliu-beihang.github.io/), advised by Prof.[Xianglong Liu](https://xlliu-beihang.github.io/), and I also finished my bachelor's thesis project focusing on rectifying texture bias exposed in deep neural network under the supervision of Prof.[Xianglong Liu](https://xlliu-beihang.github.io/). I spent a wonderful winter with Prof.[Jia Liu](https://brain.tsinghua.edu.cn/en/info/1010/1010.htm) at [Tsinghua Laboratory of Brain and Intelligence (THBI)](https://brain.tsinghua.edu.cn/en/index.htm), studying intuitive physics engine and stability inference with convolutional neural networks. 
+
+I'm interested in building reliable and interpretable computer vision models and study the similarity between those models and humans. Particularly, I focus on:
+- Neural cellular automata and self-organizing systems
+- Interpretability of adversarial attacks and adversarial robustness
+- Different cognition biases between humans and deep-learning based computer vision models
+
+I believe
 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
