@@ -10,7 +10,7 @@ redirect_from:
 
 My name is Yitao Xu (徐一涛). Welcome to my homepage!
 
-I am a exchange master's student in Computer Science at [École polytechnique fédérale de Lausanne (EPFL)](https://www.epfl.ch/en/). Before the exchange semester, I was a master's student at [KTH Royal Institute of Technology](https://www.kth.se/en), majoring in Machine Learning. 
+I am currently a exchange master's student in Computer Science at [École polytechnique fédérale de Lausanne (EPFL)](https://www.epfl.ch/en/). Before the exchange semester, I was a master's student at [KTH Royal Institute of Technology](https://www.kth.se/en), majoring in Machine Learning. 
 
 Before my master's study, I got my B.Eng degree in Computer Science and Technology at [Beihang University (BUAA)](https://www.buaa.edu.cn/). I worked as a research student at [State Key Laboratory of Software Development Environment (NLSDE)](https://xlliu-beihang.github.io/), advised by Prof.[Xianglong Liu](https://xlliu-beihang.github.io/), and I also finished my bachelor's thesis project focusing on rectifying texture bias exposed in deep neural network under the supervision of Prof.[Xianglong Liu](https://xlliu-beihang.github.io/). I spent a wonderful winter with Prof.[Jia Liu](https://brain.tsinghua.edu.cn/en/info/1010/1010.htm) at [Tsinghua Laboratory of Brain and Intelligence (THBI)](https://brain.tsinghua.edu.cn/en/index.htm), studying intuitive physics engine and stability inference with convolutional neural networks. 
 
