@@ -84,7 +84,7 @@ author:
   avatar           : "profile.png"
   bio              : "M.Sc. Exchange, Computer Science, EPFL. 
                       \n\n\n
-                      
+
                       M.Sc. Machine Learning, KTH."
   location         : "Lausanne, Switzerland"
   employer         :
@@ -312,4 +312,4 @@ compress_html:
   clippings: pre
   blanklines: true
   ignore:
-    envs: development
+    envs: 
