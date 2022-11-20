@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xu Yitao"
+title                    : "Yitao Xu"
 title_separator          : "-"
-name                     : &name "Xu Yitao "
-description              : &description "personal description"
+name                     : &name "Yitao Xu"
+description              : &description "Yitao Xu's Homepage"
 url                      : https://xyt0098.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xyt0098/xyt0098.github.io"
