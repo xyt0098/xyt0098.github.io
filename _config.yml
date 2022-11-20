@@ -82,7 +82,9 @@ analytics:
 author:
   name             : "Yitao Xu"
   avatar           : "profile.png"
-  bio              : "M.Sc. Exchange, Computer Science, EPFL."
+  bio              : "M.Sc. Exchange, Computer Science, EPFL. 
+                      \n\n\n
+                      M.Sc. Machine Learning, KTH."
   location         : "Lausanne, Switzerland"
   employer         :
   pubmed           : 
