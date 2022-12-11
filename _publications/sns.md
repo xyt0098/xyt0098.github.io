@@ -8,7 +8,7 @@ venue: 'IEEE Transactions on Image Processing'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # citation: ''
 ---
-Chongzhi Zhang, Aishan Liu, Xianglong Liu, Yitao Xu, et al.
+Chongzhi Zhang, Aishan Liu, Xianglong Liu, Yitao Xu, Hang Yu, Yuqing Ma, Tianlin Li.
 
 [pdf](https://ieeexplore.ieee.org/abstract/document/9286885)
 
