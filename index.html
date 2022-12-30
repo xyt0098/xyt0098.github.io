@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌏</text></svg>">
 </head>
 
 <body>
@@ -23,13 +23,13 @@
               <p>I am currently a exchange master's student in Computer Science at <a href="https://www.epfl.ch/en/">École polytechnique fédérale de Lausanne (EPFL)</a>. Before the exchange semester, I was a master's student at <a href="https://www.kth.se/en/studies/master/machine-learning/">KTH Royal Institute of Technology</a>, majoring in Machine Learning. 
               </p>
               <p>
-                Before my master's study, I got my B.Eng degree in Computer Science and Technology at <a href="https://www.buaa.edu.cn/">Beihang University (BUAA)</a>. I worked as a research student at <a href="https://xlliu-beihang.github.io/">State Key Laboratory of Software Development Environment (NLSDE)</a>, advised by <a href="https://xlliu-beihang.github.io/">Prof.Xianglong Liu</a>, and I also finished my bachelor's thesis project focusing on rectifying texture bias exposed in deep neural network there. After graduating from BUAA, I become a Machine Learning Intern at <a href="https://www.didiglobal.com/science/ailabs">DiDi AI Labs</a>, where I was led by <a href="https://chezhengping.xyz/">Zhengping Che and <a href="https://scholar.google.com/citations?user=IirM9zMAAAAJ&hl=en-en">Prof.Jian Tang</a>. Beginning in 12.2020, I spent a wonderful winter at <a href="https://brain.tsinghua.edu.cn/en/index.htm">Tsinghua Laboratory of Brain and Intelligence (THBI)</a> under the supervision of <a href="https://brain.tsinghua.edu.cn/en/info/1010/1010.htm">Prof.Jia Liu</a>, studying intuitive physics engine and stability inference with convolutional neural networks. 
+                Before my master's study, I got my B.Eng degree in Computer Science and Technology at <a href="https://www.buaa.edu.cn/">Beihang University (BUAA)</a>. I worked as a research student at <a href="https://xlliu-beihang.github.io/">State Key Laboratory of Software Development Environment (NLSDE)</a>, advised by <a href="https://xlliu-beihang.github.io/">Prof.Xianglong Liu</a>, and I also finished my bachelor's thesis project focusing on rectifying texture bias exposed in deep neural network there. After graduating from BUAA, I become a Machine Learning Intern at <a href="https://www.didiglobal.com/science/ailabs">DiDi AI Labs</a>, where I was led by <a href="https://chezhengping.xyz/">Zhengping Che</a> and <a href="https://scholar.google.com/citations?user=IirM9zMAAAAJ&hl=en-en">Prof.Jian Tang</a>. Beginning in 12.2020, I spent a wonderful winter at <a href="https://brain.tsinghua.edu.cn/en/index.htm">Tsinghua Laboratory of Brain and Intelligence (THBI)</a> under the supervision of <a href="https://brain.tsinghua.edu.cn/en/info/1010/1010.htm">Prof.Jia Liu</a>, studying intuitive physics engine and stability inference with convolutional neural networks. 
               </p>
               <p style="text-align:center">
                 <a href="study0098@gmail.com">Email</a> &nbsp/&nbsp
                 <a href="data/CV_YitaoXu.pdf">CV</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?user=jvCvNPQAAAAJ&hl=en-en">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://https://github.com/study0098">Github</a>
+                <a href="https://github.com/study0098">Github</a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -54,13 +54,15 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-					<tr onmouseout="dynca_stop()" onmouseover="dynca_start()">
+          
+          <tr onmouseout="dynca_stop()" onmouseover="dynca_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='dynca_image'>
-                  <img src='images/dynca_after.jpg' width="160"></div>
-                <img src='images/dynca_before.jpg' width="160">
+                <div class="two" id='dynca_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/dynca.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/dynca.png' width="160">
               </div>
               <script type="text/javascript">
                 function dynca_start() {
@@ -74,27 +76,154 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://openreview.net/forum?id=AmPeAFzU3a4">
-                <papertitle>dynca: Mental Imagery for Robotic Affordances</papertitle>
+              <a href="https://arxiv.org/abs/2211.11417">
+                <papertitle>DyNCA: Real-time Dynamic Texture Synthesis Using Neural Cellular Automata</papertitle>
               </a>
               <br>
-              <a href="https://yenchenlin.me/">Lin Yen-Chen</a>, 
-              <a href="http://www.peteflorence.com/">Pete Florence</a>, 
-              <a href="https://andyzeng.github.io/">Andy Zeng</a>, <strong>Jonathan T. Barron</strong>, 
-              <a href="https://yilundu.github.io/">Yilun Du</a>,
-              <a href="https://people.csail.mit.edu/weichium/">Wei-Chiu Ma</a>,
-              <a href="https://anthonysimeonov.github.io/">Anthony Simeonov</a>,
-              <a href="https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU">Alberto Rodriguez</a>,
-              <a href="http://web.mit.edu/phillipi/">Phillip Isola</a>
+              <strong>Yitao Xu*</strong>,
+              <a href="https://people.epfl.ch/ehsan.pajouheshgar?lang=en">Ehsan Pajouheshgar*</a>,
+              <a href="https://sites.google.com/view/tong-zhang">Tong Zhang</a>,
+							<a href="https://people.epfl.ch/sabine.susstrunk">Sabine Süsstrunk</a>
               <br>
-              <em>CoRL</em>, 2022
+              <em>arXiv</em>, 2022
+              <br>
+              <a href="https://dynca.github.io/">project page</a>
+              /
+              <a href="https://arxiv.org/abs/2211.11417">arXiv</a>
+              /
+              <a>code (coming soon!)</a>
               <p></p>
               <p>
-                NeRF lets us synthesize novel orthographic views that work well with pixel-wise algorithms for robotic manipulation.
+                We propose Dynamic Neural Cellular Automata (DyNCA), a framework for real-time and controllable dynamic texture synthesis.
+                </p>
+              <p>
+                *Authors contributed equally
+              </p>
+            </td>
+          </tr>
+
+					<tr onmouseout="ins_stop()" onmouseover="ins_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ins_image'>
+                  <img src='images/ins_after.png' width="160"></div>
+                <img src='images/ins_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function ins_start() {
+                  document.getElementById('ins_image').style.opacity = "1";
+                }
+        
+                function ins_stop() {
+                  document.getElementById('ins_image').style.opacity = "0";
+                }
+                ins_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.sciencedirect.com/science/article/pii/S0020025520308124">
+                <papertitle>Understanding adversarial robustness via critical attacking route</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=XB6CydwAAAAJ&hl=en">Tianlin Li</a>, 
+              <a href="https://liuaishan.github.io/">Aishan Liu</a>, 
+              <a href="https://xlliu-beihang.github.io/">Xianglong Liu</a>, 
+              <strong>Yitao Xu</strong>, 
+              <a href="https://scholar.google.com.hk/citations?user=MaAiOikAAAAJ&hl=en-en">Chongzhi Zhang</a>,
+              <a href="https://xiaofeixie.bitbucket.io/">Xiaofei Xie</a>
+              <br>
+              <em>Information Sciences</em>, 2021
+              <br>
+              <a href="https://www.sciencedirect.com/science/article/pii/S0020025520308124">paper</a>
+              <p></p>
+              <p>
+                We believe that adversarial noises are amplified and propagated through the critical attacking route, identified by the proposed algorithm.
               </p>
             </td>
           </tr>		
-					
+				
+          <tr onmouseout="eqa_stop()" onmouseover="eqa_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='eqa_image'><video  width=160 height=110 muted autoplay>
+                <source src="images/eqa.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/eqa.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function eqa_start() {
+                  document.getElementById('eqa_image').style.opacity = "1";
+                }
+        
+                function eqa_stop() {
+                  document.getElementById('eqa_image').style.opacity = "0";
+                }
+                eqa_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-030-58520-4_8">
+                <papertitle>Spatiotemporal Attacks for Embodied Agents</papertitle>
+              </a>
+              <br>
+              <a href="https://liuaishan.github.io/">Aishan Liu</a>, 
+              <a href="https://scholar.google.com.hk/citations?user=qXaEfxIAAAAJ&hl=en-en">Tairan Huang</a>,
+              <a href="https://xlliu-beihang.github.io/">Xianglong Liu</a>, 
+              <strong>Yitao Xu</strong>, et al.
+              <br>
+              <em>ECCV</em>, 2020
+              <br>
+              <a href="https://link.springer.com/chapter/10.1007/978-3-030-58520-4_8">paper</a>
+              /
+              <a href="https://github.com/liuaishan/SpatiotemporalAttack">code</a>
+              <p></p>
+              <p>
+                We take the first step to study adversarial attacks for embodied agents. We generate spatiotemporal perturbations to form 3D adversarial examples, exploiting the
+                interaction history in both the temporal and spatial dimensions.
+                </p>
+              </p>
+            </td>
+          </tr>
+        
+          <tr onmouseout="sns_stop()" onmouseover="sns_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='sns_image'>
+                  <img src='images/sns_after.png' width="160"></div>
+                <img src='images/sns_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function sns_start() {
+                  document.getElementById('sns_image').style.opacity = "1";
+                }
+          
+                function sns_stop() {
+                  document.getElementById('sns_image').style.opacity = "0";
+                }
+                sns_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/abstract/document/9286885">
+                <papertitle>Interpreting and Improving Adversarial Robustness of Deep Neural Networks with Neuron Sensitivity</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com.hk/citations?user=MaAiOikAAAAJ&hl=en-en">Chongzhi Zhang</a>,
+              <a href="https://liuaishan.github.io/">Aishan Liu</a>, 
+              <a href="https://xlliu-beihang.github.io/">Xianglong Liu</a>, 
+              <strong>Yitao Xu</strong>, et al.
+              <br>
+              <em>IEEE Transactions on Image Processing</em>, 2020
+              <br>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9286885">paper</a>
+              <p></p>
+              <p>
+                We explain adversarial robustness for deep models from a new perspective of neuron sensitivity which is measured by neuron behavior variation intensity against benign and adversarial examples.
+              </p>
+            </td>
+          </tr>		
+
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
