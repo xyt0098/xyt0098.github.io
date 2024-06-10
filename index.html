@@ -60,6 +60,57 @@
             </tr>
           </tbody>
         </table>
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <th colspan="2" style="text-align:center;"><heading>Publications</heading><br><span style="color:gray;">"*" means equal contribution</span></th>
+          <tr onmouseout="meshnca_stop()" onmouseover="meshnca_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='meshnca_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/meshnca.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/meshnca.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function meshnca_start() {
+                  document.getElementById('meshnca_image').style.opacity = "1";
+                }
+
+                function meshnca_stop() {
+                  document.getElementById('meshnca_image').style.opacity = "0";
+                }
+                meshnca_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2311.02820">
+                <papertitle>Mesh Neural Cellular Automata</papertitle>
+              </a>
+              <br>
+              <a href="https://people.epfl.ch/ehsan.pajouheshgar?lang=en">Ehsan Pajouheshgar*</a>,
+              <strong>Yitao Xu*</strong>,
+              <a href="https://scholar.google.ch/citations?user=A_HbzQMAAAAJ&hl=en/">Alexander Mordvintsev</a>,
+              <a href="https://scholar.google.se/citations?user=x5sfH5MAAAAJ&hl=en/">Eyvind Niklasson</a>,
+              <a href="https://sites.google.com/view/tong-zhang">Tong Zhang</a>,
+							<a href="https://people.epfl.ch/sabine.susstrunk">Sabine Süsstrunk</a>
+              <br>
+              <em>SIGGRAPH</em>, 2024
+              <br>
+              <a href="https://meshnca.github.io/">project page</a>
+              /
+              <a href="https://arxiv.org/pdf/2311.02820">arXiv</a>
+              /
+              <a href="https://github.com/IVRL/MeshNCA">code</a>
+              <p></p>
+              <p>
+                MeshNCA is a comprehensive framework for 3D texture synthesis. It is compatible with image or text targets, and enjoys various test-time properties such as texture density control, grafting, and mesh generalization. Play with our <a href="https://meshnca.github.io/">demo</a>!
+                </p>
+              <p>
+              </p>
+            </td>
+          </tr>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <th colspan="2" style="text-align:center;"><heading>Publications</heading><br><span style="color:gray;">"*" means equal contribution</span></th>
           <tr onmouseout="dynca_stop()" onmouseover="dynca_start()">
