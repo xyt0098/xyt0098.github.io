@@ -110,7 +110,94 @@
               </p>
             </td>
           </tr>
-
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr onmouseout="noisenca_stop()" onmouseover="noisenca_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='noisenca_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/noisenca.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/noisenca.png' width="160">
+                </div>
+                <script type="text/javascript">
+                  function noisenca_start() {
+                    document.getElementById('noisenca_image').style.opacity = "1";
+                  }
+  
+                  function noisenca_stop() {
+                    document.getElementById('noisenca_image').style.opacity = "0";
+                  }
+                  noisenca_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2404.06279">
+                  <papertitle>NoiseNCA: Noisy Seed Improves Spatio-Temporal Continuity of Neural Cellular Automata</papertitle>
+                </a>
+                <br>
+                <a href="https://pajouheshgar.github.io/">Ehsan Pajouheshgar</a>,
+                <strong>Yitao Xu</strong>,
+                <a href="https://people.epfl.ch/sabine.susstrunk">Sabine Süsstrunk</a>
+                <br>
+                <em>ALife</em>, 2024
+                <br>
+                <a href="https://noisenca.github.io/">project page</a>
+                /
+                <a href="https://arxiv.org/abs/2404.06279">arXiv</a>
+                /
+                <a href="https://noisenca.github.io/">code (Coming Soon!)</a>
+                <p></p>
+                <p>
+                  We examine the behaviors of NCA at the spatio-temporal limit and find it struggling to generate correct patterns. We propose a simple yet effective solution by initializing the seeds with noises. The increased spatio-temporal continuity enables several test-time controls, including anisotropic scaling, multi-scale pattern formation, and continuous speed adjustment. Play with our <a href="https://noisenca.github.io/">demo</a>!
+                  </p>
+                <p>
+                </p>
+              </td>
+            </tr>
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr onmouseout="emergent_dynamics_nca_stop()" onmouseover="emergent_dynamics_nca_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='emergent_dynamics_nca_image'><video  width=100% height=100% muted autoplay loop>
+                    <source src="images/emergent_dynamics_nca.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video></div>
+                    <img src='images/emergent_dynamics_nca.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function emergent_dynamics_nca_start() {
+                      document.getElementById('emergent_dynamics_nca_image').style.opacity = "1";
+                    }
+    
+                    function emergent_dynamics_nca_stop() {
+                      document.getElementById('emergent_dynamics_nca_image').style.opacity = "0";
+                    }
+                    emergent_dynamics_nca_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2404.06406">
+                    <papertitle>Emergent Dynamics in Neural Cellular Automata</papertitle>
+                  </a>
+                  <br>
+                  <strong>Yitao Xu</strong>,
+                  <a href="https://pajouheshgar.github.io/">Ehsan Pajouheshgar</a>,
+                  <a href="https://people.epfl.ch/sabine.susstrunk">Sabine Süsstrunk</a>
+                  <br>
+                  <em>ALife</em>, 2024
+                  <br>
+                  <a href="https://arxiv.org/abs/2404.06406">arXiv</a>
+                  /
+                  <a href="https://arxiv.org/abs/2404.06406">code (Coming Soon!)</a>
+                  <p></p>
+                  <p>
+                    We investigate the relationship between the NCA architecture and the emergent dynamics of the trained models.
+                  </p>
+                  <p>
+                  </p>
+                </td>
+              </tr>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="dynca_stop()" onmouseover="dynca_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
