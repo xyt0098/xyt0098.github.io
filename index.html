@@ -61,8 +61,50 @@
           </tbody>
         </table>
         
+        
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <th colspan="2" style="text-align:center;"><heading>Publications</heading><br><span style="color:gray;">"*" means equal contribution</span></th>
+          
+          <tr onmouseout="adanca_stop()" onmouseover="adanca_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='adanca_image'>
+                  <img src='images/adanca_after.png' width="160"></div>
+                <img src='images/adanca_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function adanca_start() {
+                  document.getElementById('adanca_image').style.opacity = "1";
+                }
+        
+                function adanca_stop() {
+                  document.getElementById('adanca_image').style.opacity = "0";
+                }
+                adanca_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/pdf/2406.08298">
+                <papertitle>AdaNCA: Neural Cellular Automata As Adaptors For More Robust Vision Transformer</papertitle>
+              </a>
+              <br>
+              <strong>Yitao Xu</strong>, 
+              <a href="https://sites.google.com/view/tong-zhang">Tong Zhang</a>,
+              <a href="https://people.epfl.ch/sabine.susstrunk">Sabine Süsstrunk</a>
+              <br>
+              <em>NeurIPS</em>, 2024
+              <br>
+              <a href="https://arxiv.org/pdf/2406.08298">paper</a>
+              /
+              <a href="https://xyt0098.github.io/">code (Coming Soon!)</a>
+              <p></p>
+              <p>
+                We propose AdaNCA, inserting NCA into ViTs as plug-and-play adaptors for enhancing their robustness. We develop a unified perspective of NCA and ViT in terms of token interaction learning. Our work takes the first step to scale NCA up to solve large-scale computer vision problems, and proves that NCA can be practically utilized to improve the robustness of current vision transformer models. 
+              </p>
+            </td>
+          </tr>		
+          
           <tr onmouseout="meshnca_stop()" onmouseover="meshnca_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
